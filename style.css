@@ -1,0 +1,157 @@
+#titre
+{
+    margin-top: 9px;
+    font-size: 17px;
+    margin-left: 77px;
+}
+#accueil
+{
+    margin-left: 26px;
+
+}
+#inscrire
+{
+    margin-left: 684px;
+
+}
+#connecter
+{
+    margin-left: 15px;
+
+}
+.bienvenue {
+    position: relative;
+    margin-top: -36%;
+    border: 3px solid white;
+    padding: 3%;
+    width: 50%;
+    /* margin-left: -26px; */
+    color: white;
+    font-size: 252%;
+}
+input
+{
+    width: 65% !important;
+    margin-left: 22%;
+}
+.container
+
+{
+    background-color: #F5F5F5;
+    padding: 86px;
+    /* height: 27%; */
+    margin-top: 18%;
+}
+h2
+{
+    margin-top: 15px;
+}
+
+.fa-send{
+    color: blueviolet;
+}
+.fa {
+    padding: 12px;
+    font-size: 17px;
+    width: 46px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-top: 58px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: orangered;
+    color: white;
+  }
+  .media
+ {
+    justify-content: center;
+
+ } 
+ footer
+ {
+    background-color: darkslategray;
+    
+    height: 150px;
+ }
+ /* On screens that are 900px or less*/
+
+ @media screen and (max-width: 900px) {
+    .bienvenue {
+        
+        position: relative;
+        margin-top: -36%;
+        border: 3px solid white;
+        /* padding: 3%; */
+        width: 51%;
+        /* margin-left: -26px; */
+        color: white;
+        font-size: 161%;
+        
+    }
+    .navbar-brand {
+
+    font-size: 16px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+    .secteur_newsletter {
+        background-color: #F5F5F5;
+        height: 63px;
+        padding: 232px;
+    }
+    .container
+    {
+        margin-top: 14%;
+
+
+    }
+ }
+
+ @media screen and (max-width: 600px)
+{
+.bienvenue {
+    position: relative;
+    margin-top: -36%;
+    border: 2px solid white;
+    /* padding: 3%; */
+    width: 53%;
+    /* margin-left: -26px; */
+    color: white;
+    font-size: 122%;
+}
+.navbar-brand {
+    font-size: 13px;
+}
+}
+@media screen and (max-width: 1200px)
+{
+    .container
+    {
+        margin-top: 14%;
+
+
+    }
+}

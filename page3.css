@@ -1,0 +1,156 @@
+#titre
+{
+    margin-top: 9px;
+    font-size: 17px;
+    margin-left: 77px;
+}
+#accueil
+{
+    margin-left: 26px;
+
+}
+#inscrire
+{
+    margin-left: 684px;
+
+}
+
+footer
+ {
+    background-color: darkslategray;
+    margin-top: -2px;
+    height: 150px;
+ }
+ footer > .fa  {
+    padding: 13px;
+    font-size: 17px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-top: 58px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: orangered;
+    color: white;
+  }
+  .media
+ {
+    justify-content: center;
+    margin-top: 8%;
+    position: relative;
+
+} 
+
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+.container{
+    padding: 2%;
+    margin-top: 15%;
+
+}
+body
+{
+    background: url(https://image.freepik.com/free-vector/polygonal-lines-on-a-white-background_1017-6452.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid {
+    
+    padding-left: 0px !important;
+}
+.img-fluid {
+    height: 115%!important ;
+}
+
+@media screen and (max-width:700px) {
+    footer > .fa {
+        padding: 10px;
+        font-size: 13px;
+        width: 41px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        margin-top: 58px;
+    }
+    h3
+    {
+        font-size: 121% !important;
+
+    }
+
+}
+
+@media screen and (max-width:500px) {
+.container {
+    padding: 19%;
+    margin-top: 15%;
+}
+}
+
+@media screen and (max-width: 300px)
+{
+.container {
+    padding: 15%;
+    margin-top: 28%;
+}
+}   
